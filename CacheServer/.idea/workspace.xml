@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="DhcpServerExt:jar" />
+      <artifact name="CacheServer:jar" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="225f47dc-6cdf-44f2-a1f0-0d34be95524f" name="Default Changelist" comment="" />
+    <list default="true" id="3dbc3cb5-0cb1-4da0-9870-52261f47fff9" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +20,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectId" id="1cE2nz2JOLLxQa2TRWkbxILBUGa" />
+  <component name="ProjectId" id="1cJKBTS8DGNDgJ0sdcjEYjtiBUe" />
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.Annotations" value="false" />
@@ -28,13 +28,8 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../DhcpSever" />
     <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.proportion" value="0.15039062" />
     <property name="project.structure.side.proportion" value="0.2" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\MSI1\Desktop\ServiceRouting\DhcpServerExt\src" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -53,11 +48,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="225f47dc-6cdf-44f2-a1f0-0d34be95524f" name="Default Changelist" comment="" />
-      <created>1590079602322</created>
+      <changelist id="3dbc3cb5-0cb1-4da0-9870-52261f47fff9" name="Default Changelist" comment="" />
+      <created>1590241120992</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1590079602322</updated>
+      <updated>1590241120992</updated>
     </task>
     <servers />
   </component>

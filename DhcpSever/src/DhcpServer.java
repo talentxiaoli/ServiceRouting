@@ -1,11 +1,13 @@
 
 
+import com.google.gson.Gson;
+import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
+import com.google.gson.stream.JsonReader;
+import jdk.nashorn.internal.parser.JSONParser;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.IOException;
-import java.io.OutputStreamWriter;
+import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 
@@ -14,14 +16,13 @@ public class DhcpServer {
 
     private static final String TAG = "DhcpServer";
 
-    private static String sr_prev = "fd15:4ba5:5a2b:1008";
-    private static String sr_hash = "sha256";
-    private static String sr_ext_ip = "fd15:4ba5:5a2b:1008:bde7:5050:c0bc:42c1";
+    private String sr_prev = "fd15:4ba5:5a2b:1008";
+    private String sr_hash = "sha256";
+    private String sr_ext_ip = "fd15:4ba5:5a2b:1008:bde7:5050:c0bc:42c1";
 
 
-    private static ServerSocket dhcp_server;
-    private static Socket dhcp_client;
-    private static BufferedReader br_in;
+    private ServerSocket dhcp_server;
+    private Socket dhcp_client;
 
     public DhcpServer() {
         System.out.println("DhcpServer::DhcpServer()");
